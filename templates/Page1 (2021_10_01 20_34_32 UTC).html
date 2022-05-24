@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+              background-image: url('https://freerangestock.com/sample/137490/financial-analysis--financial-planning--concept.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;  
+              background-size: cover;
+            }
+            
+            
+
+
+        </style>
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+            
+                <br>
+                <form class="ui form " name="page1form" id="page1form" action="/Page2" method="POST" >
+                    {% csrf_token %}
+                    <br> 
+                    <br>
+                    <div class="container center_div">
+                        <div>
+                            <div>
+                                <label> <h2><b><u>Financial Statement Analysis</u></b></h2></label>
+                                <h3>Enter company name:</h3>
+                                <h6>(Companies listed on Yahoo Finance have been used for reference)</h6>
+                            </div>
+                            <div>
+                                <input type="text" name="name" placeholder="Eg: Alphabet Inc." height="100" required>
+                            </div>
+                        </div>
+
+                        <br> 
+
+                        
+                    
+                            
+
+                        <input class="btn btn-primary" type="submit" value="View Results" >
+                    </div>
+                </form>
+</body>
+</html>
+        
+

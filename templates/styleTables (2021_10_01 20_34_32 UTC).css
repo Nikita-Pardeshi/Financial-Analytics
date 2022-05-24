@@ -1,0 +1,12 @@
+th, td {
+    text-align: center;
+    justify-content: center;
+}
+
+input {
+    width: 50%;
+}
+
+.brdr{
+    border: 1px black solid;
+}
